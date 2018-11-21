@@ -33,7 +33,7 @@ class Customer:
             return 1200
 
     def info_csv(self):
-        return f"{self.first_name} {self.family_name}   {str(self.age)}    {str(self.entry_fee())}"
+        return f"{self.first_name} {self.family_name}|{str(self.age)}|{str(self.entry_fee())}"
 
 ken = Customer("Ken", "Tanaka", 15)
 tom = Customer("Tom", "Ford", 57)
